@@ -20,7 +20,10 @@ The files associated to this project are:
 ## Reading the **averages_data.tx** 
 
 The code you need to read the tidy data set into R is:
->address <- "https://s3.amazonaws.com/coursera-uploads/user-b1295782a5456d738e2cdeab/973499/asst-3/0cad0c90d00c11e4af8893aae960f4af.txt"
->address <- sub("^https", "http", address)
->averages_data <- read.table(url(address), header = TRUE)
->View(averages_data)
+
+```
+address <- "https://s3.amazonaws.com/coursera-uploads/user-b1295782a5456d738e2cdeab/973499/asst-3/0cad0c90d00c11e4af8893aae960f4af.txt"
+address <- sub("^https", "http", address)
+averages_data <- read.table(url(address), header = TRUE)
+View(averages_data)
+```
