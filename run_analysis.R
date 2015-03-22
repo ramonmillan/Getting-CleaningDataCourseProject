@@ -1,6 +1,4 @@
 
-# Working directory
-workingdirectory <- setwd("C:/Users/rmillan/datasciencecoursera/courseproject/")
 
 # Loading "plyr" with tools for splitting, applying and combining data
 
